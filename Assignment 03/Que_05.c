@@ -1,0 +1,9 @@
+#include <stdio.h>
+int main()
+{
+    int n;
+    printf("Enter a number");
+    scanf("%d", &n);
+    printf("Number without last digit is %d", n / 10);
+    return 0;
+}
